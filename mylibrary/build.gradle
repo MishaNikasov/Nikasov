@@ -6,15 +6,19 @@ plugins {
 ext {
     PUBLISH_GROUP_ID = 'io.github.mishanikasov'
     PUBLISH_VERSION = '1.0'
+    
     PUBLISH_ARTIFACT_ID = 'mylibrary'
     PUBLISH_DESCRIPTION = 'Android Library'
     PUBLISH_URL = 'https://github.com/MishaNikasov/Nikasov'
-    PUBLISH_LICENSE_NAME = 'Apache License'
-    PUBLISH_LICENSE_URL = 'https://github.com/MishaNikasov/Nikasov/master/LICENSE'
+
+    PUBLISH_LICENSE_NAME = 'MIT License'
+    PUBLISH_LICENSE_URL = 'https://opensource.org/licenses/MIT'
+
     PUBLISH_DEVELOPER_ID = 'MishaNikasov'
     PUBLISH_DEVELOPER_NAME = 'Misha Nikasov'
     PUBLISH_DEVELOPER_EMAIL = 'mishanikasov@gmail.com'
-    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/MishaNikasov/Nikasov.git'
+
+    PUBLISH_SCM_CONNECTION = 'scm:git:git://github.com/MishaNikasov/Nikasov.git'
     PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com/MishaNikasov/Nikasov.git'
     PUBLISH_SCM_URL = 'https://github.com/MishaNikasov/Nikasov/tree/master'
 }
