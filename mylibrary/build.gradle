@@ -20,7 +20,7 @@ ext {
 
     PUBLISH_SCM_CONNECTION = 'scm:git:git://github.com/MishaNikasov/Nikasov.git'
     PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com/MishaNikasov/Nikasov.git'
-    PUBLISH_SCM_URL = 'https://github.com/MishaNikasov/Nikasov/tree/master'
+    PUBLISH_SCM_URL = 'https://github.com/MishaNikasov/Nikasov'
 }
 
 apply from: "${rootDir}/scripts/publish-module.gradle"
